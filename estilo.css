@@ -1,0 +1,188 @@
+body{
+  height: 100vh;
+  font-family: Times New Roman;
+  background: linear-gradient(rgba(255,100,200,.65),rgba(255,100,200,.75)),url("fondo.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+  font-size: 25pt;
+}
+#sonido{
+  border: 1px solid white;
+  border-radius: 5px solid;
+}
+a{
+  color: white;
+}
+#ayuda{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: Times New Roman;
+  font-size: 20pt;
+  border-radius: 5px;
+}
+#autor1{
+  display: none;
+}
+label{
+  font-size: 25pt;
+}
+#nota{
+  font-size: 20pt;
+}
+#padre{
+  width: 100%;
+}
+.titulo{
+  border: 4px solid white;
+  background: white;
+}
+#mititulo{
+  color: rgb(255,100,200);
+}
+#logo_live{
+  width: 100%;
+}
+#col1{
+  width: 30%;
+}
+#col2{
+  width: 70%;
+  text-align: center;
+}
+#indicador{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.nivel1{
+  border: 4px solid rgb(255,200,240);
+  margin-top: 2%;
+  background-color: rgba(255,150,200,.60);
+  
+}
+.nivel2{
+  border: 1px solid transparent;
+  margin: 2%;
+}
+#txt1,#txt2{
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 2px solid white;
+  font-family: Times New Roman;
+}
+#txt1::placeholder,#txt2::placeholder{
+  color: rgb(255,200,250);
+  font-family: Times New Roman;
+}
+.recolector{
+  width: 70%;
+}
+.boton{
+  width: 40%;
+  font-size: 25pt;
+}
+#marco,#marco2,#marco3,#marco4{
+  width: 100%;
+}
+#txt1,#txt2,.boton{
+  margin-top: 2%;
+  color: white;
+  font-size: 25pt;
+}
+.boton{
+  margin-bottom: 2%;
+}
+#banner{
+  width: 100%;
+}
+#waifu{
+  width: 100%;
+}
+#imagen{
+  border: 1px solid white;
+}
+#imagen{
+  width: 60%;
+  background-color: rgba(255,255,255,.40);
+}
+#foto{
+  width: 100%;
+}
+.boton,select{
+  background-color: white;
+  border: 1px solid white;
+  font-family: Times New Roman;
+  color: rgb(255,100,200);
+  border-radius: 5px;
+}
+#flechas{
+  width: 100%;
+}
+p{
+  margin: 2%;
+}
+#sonido{
+  width: 10%;
+  margin-top: -128%;
+  margin-left: 83%;
+  background-color: white;
+  border-radius: 5px;
+}
+#icono_s{
+  width: 100%;
+}
+#bait{
+  background-color: white;
+  border-radius: 5px;
+}
+#pre{
+  color: rgb(255,100,200);
+}
+#par{
+  border-top: 1px solid rgb(255,200,240);
+}
+#pie{
+  opacity: .0;
+}
+#dificultad{
+  font-size: 25pt;
+}
+@media(min-width: 1051px){
+  body{
+  height: 100vh;
+  font-family: Times New Roman;
+  background: linear-gradient(rgba(255,100,200,.65),rgba(255,100,200,.75)),url("fondo2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+  }
+  #super,#super2{
+    width: 49%;
+  }
+  #super{
+    float: left;
+  }
+  #super2{
+    float: right;
+  }
+  #col1{
+    width: 10%;
+  }
+  #autor1{
+    display: block;
+  }
+  #autor2{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
